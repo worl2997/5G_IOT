@@ -16,7 +16,6 @@ Jetson board와 같은 임베디드 보드에서 동작하기 위한 TensorRT �
 
 ## YOLOv7 프레임워크
 
----
 
 ## Installation
 
