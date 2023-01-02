@@ -10,12 +10,13 @@ Jetson board와 같은 임베디드 보드에서 동작하기 위한 TensorRT �
 
 과제 수행을 위한 Poc별 모델 학습에 편의성을 제공한다.
 
-[TensorRT Convert & detection ](./paper/TensorRT_Convert__detection_.pdf)
+[TensorRT Convert & detection ](readme/TensorRT%20Convert%20&%20detection%207aee7c2dae374b07898f9e003832ae81.md)
 
-[**모델 학습 프레임워크 데이터셋 지원**](./paper/모델_학습_프레임워크_데이터셋_지원.pdf)
+[**모델 학습 프레임워크 데이터셋 지원**](readme/%E1%84%86%E1%85%A9%E1%84%83%E1%85%A6%E1%86%AF%20%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%B7%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%89%E1%85%A6%E1%86%BA%20%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%AF%E1%86%AB%20a3e4ed53721a4fbfafdcde3fea24ebc6.md)
 
 ## YOLOv7 프레임워크
 
+---
 
 ## Installation
 
@@ -24,6 +25,8 @@ Docker environment (recommended)
 - **Expand**
 
 ## Testing
+
+`[yolov7.pt](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt)` `[yolov7x.pt](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7x.pt)` `[yolov7-w6.pt](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-w6.pt)` `[yolov7-e6.pt](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6.pt)` `[yolov7-d6.pt](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-d6.pt)` `[yolov7-e6e.pt](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6e.pt)`
 
 ```bash
 python test.py --data data/coco.yaml --img 640 --batch 32 --conf 0.001 --iou 0.65 --device 0 --weights yolov7.pt --name yolov7_640_val
