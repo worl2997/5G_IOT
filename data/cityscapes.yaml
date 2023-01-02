@@ -1,0 +1,9 @@
+
+download: bash ./scripts/get_cityscapes.sh && python cityscapes.py
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ./cityscapes/cityscapes_train.txt  # 118287 images
+val: ./cityscapes/cityscapes_validation.txt  # 5000 images
+
+#class
+nc: 4
+names: [ 'person', 'vehicle', 'traffic sign', "traffic light"]
