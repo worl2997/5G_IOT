@@ -10,9 +10,9 @@ Jetson board와 같은 임베디드 보드에서 동작하기 위한 TensorRT �
 
 과제 수행을 위한 Poc별 모델 학습에 편의성을 제공한다.
 
-[TensorRT Convert & detection ](./paper/TensorRT_Convert__detection_)
+[TensorRT Convert & detection ](./paper/TensorRT_Convert__detection_.pdf)
 
-[**모델 학습 프레임워크 데이터셋 지원**](./paper/모델_학습_프레임워크_데이터셋_지원)
+[**모델 학습 프레임워크 데이터셋 지원**](./paper/모델_학습_프레임워크_데이터셋_지원.pdf)
 
 ## YOLOv7 프레임워크
 
